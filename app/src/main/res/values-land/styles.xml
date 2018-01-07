@@ -1,0 +1,147 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="welcomeRootLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:padding">20dp</item>
+        <item name="android:background">@color/colorLight</item>
+    </style>
+
+    <style name="MainRootLayout" parent="welcomeRootLayout">
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <!-- French quiz theme. -->
+    <style name="FrenchTheme" parent="AppTheme">
+        <item name="colorPrimary">@color/frenchPrimary</item>
+        <item name="colorPrimaryDark">@color/frenchDark</item>
+        <item name="colorAccent">@color/frenchAccent</item>
+        <item name="colorButtonNormal">@color/frenchDark</item>
+    </style>
+
+    <!-- Spanish quiz theme. -->
+    <style name="SpanishTheme" parent="AppTheme">
+        <item name="colorPrimary">@color/spanishPrimary</item>
+        <item name="colorPrimaryDark">@color/spanishDark</item>
+        <item name="colorAccent">@color/spanishAccent</item>
+        <item name="colorButtonNormal">@color/spanishDark</item>
+    </style>
+
+    <!-- German quiz theme. -->
+    <style name="GermanTheme" parent="AppTheme">
+        <item name="colorPrimary">@color/germanPrimary</item>
+        <item name="colorPrimaryDark">@color/germanDark</item>
+        <item name="colorAccent">@color/germanAccent</item>
+        <item name="colorButtonNormal">@color/germanDark</item>
+    </style>
+
+    <!-- Welcome activity -->
+    <style name="titleContainer">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginRight">20dp</item>
+    </style>
+
+    <style name="titleStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginTop">60dp</item>
+        <item name="android:textSize">60sp</item>
+        <item name="android:textColor">@color/colorTitle</item>
+    </style>
+
+    <style name="subtitleStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:color">@color/black</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+
+    <style name="selectLanguageContainer">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="selectLanguage">
+        <item name="android:radius">5dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:clickable">true</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:elevation">2dp</item>
+    </style>
+
+    <style name="selectLanguageText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:textSize">35sp</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="selectLanguageImage">
+        <item name="android:layout_width">50dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_margin">20dp</item>
+    </style>
+
+    <!-- Main Activity -->
+    <style name="question">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">80dp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="optionsPlusButtonsContainer">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="optionsContainer">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/options_container</item>
+        <item name="android:layout_weight">4</item>
+        <item name="android:elevation">5dp</item>
+    </style>
+
+    <style name="options">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="questionButtonsContainer">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">100dp</item>
+        <item name="android:layout_margin">20dp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="questionButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+</resources>

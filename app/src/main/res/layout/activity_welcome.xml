@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context="com.example.android.triolingo.WelcomeActivity">
+
+    <LinearLayout style="@style/welcomeRootLayout">
+
+        <RelativeLayout style="@style/titleContainer">
+
+            <TextView
+                android:id="@+id/title"
+                style="@style/titleStyle"
+                android:text="@string/app_name" />
+
+            <TextView
+                style="@style/subtitleStyle"
+                android:layout_below="@id/title"
+                android:text="@string/choice" />
+        </RelativeLayout>
+
+        <!--The purpose of this layout is on the landscape position. -->
+        <LinearLayout
+            style="@style/selectLanguageContainer">
+
+            <RelativeLayout
+                android:id="@+id/selectFrench"
+                style="@style/selectLanguage"
+                android:background="@color/frenchPrimary">
+
+                <ImageView
+                    style="@style/selectLanguageImage"
+                    android:src="@drawable/flag_french" />
+
+                <TextView
+                    style="@style/selectLanguageText"
+                    android:text="@string/french" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/selectSpanish"
+                style="@style/selectLanguage"
+                android:background="@color/spanishPrimary">
+
+                <ImageView
+                    style="@style/selectLanguageImage"
+                    android:src="@drawable/flag_spanish" />
+
+                <TextView
+                    style="@style/selectLanguageText"
+                    android:text="@string/spanish" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/selectGerman"
+                style="@style/selectLanguage"
+                android:background="@color/germanPrimary">
+
+                <ImageView
+                    style="@style/selectLanguageImage"
+                    android:src="@drawable/flag_german" />
+
+                <TextView
+                    style="@style/selectLanguageText"
+                    android:text="@string/german" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,146 @@
+<resources>
+    <string name="app_name" translatable="false">Triolingo</string>
+
+    <!-- Welcome Activity -->
+    <string name="choice">Choose a language to start the quiz !</string>
+    <string name="french">French</string>
+    <string name="spanish">Spanish</string>
+    <string name="german">German</string>
+
+    <!-- Main Activity -->
+    <string name="next">Next</string>
+    <string name="submit">Submit</string>
+
+    <string name="noOptionSelected">Please select an option to continue.</string>
+    <string name="congratulations">Congratulations!\nYou made a perfect score!\n</string>
+    <string name="goodJob">Good job!\nYour score is\n</string>
+    <string name="tryAgain">You didn\'t find any answer!\nTry again!\n</string>
+    <string name="points"> point(s)</string>
+    <string name="correctToastMessage">Correct! Click next to continue.</string>
+    <string name="wrongToastMessage">Sorry, the answer was wrong.</string>
+    <string name="newGame">New Game</string>
+    <string name="quit">Quit</string>
+
+    <!-- French Questions -->
+    <string-array name="fr_q1">
+        <item>« Aujourd\'hui, nous sommes mardi. »\nWhat day will it be tomorrow?</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+    </string-array>
+
+    <string-array name="fr_q2">
+        <item>What is the plural form of « Cheval » ?</item>
+        <item>Cheval</item>
+        <item>Chevaux</item>
+        <item>Cheveux</item>
+        <item>Chevals</item>
+    </string-array>
+
+    <string-array name="fr_q3">
+        <item>« Cent quatre-vingt-dix-huit euros. »\nHow much does it cost?</item>
+        <item>198€</item>
+        <item>180,18€</item>
+        <item>100,98€</item>
+        <item>188€</item>
+    </string-array>
+
+    <string-array name="fr_q4">
+        <item>« Quand les poules auront des dents. »\nWhat does it mean?</item>
+        <item>Don\'t count your chickens before the eggs have hatched.</item>
+        <item>He let the cat out of the bag.</item>
+        <item>When pigs fly.</item>
+        <item>That\'s not my problem.</item>
+    </string-array>
+
+    <string-array name="fr_q5">
+        <item>« Il fait un temps de chien. »\nWhat does it mean?</item>
+        <item>It\'s a good time to go for a walk with your dog.</item>
+        <item>Dogs love that weather.</item>
+        <item>It\'s a good weather.</item>
+        <item>It\'s rainy.</item>
+    </string-array>
+
+    <!-- Spanish Questions -->
+    <string-array name="sp_q1">
+        <item>How to say \n\"I am at the beach\" ?</item>
+        <item>Estoy en la playa.</item>
+        <item>Soy en la playa.</item>
+        <item>Estoy cerca la playa.</item>
+        <item>Vamos a la playa.</item>
+    </string-array>
+
+    <string-array name="sp_q2">
+        <item>« Es el mes de enero. »\nWhat season is it?</item>
+        <item>Verano</item>
+        <item>Otoño</item>
+        <item>Invierno</item>
+        <item>Primavera</item>
+    </string-array>
+
+    <string-array name="sp_q3">
+        <item>Which word doesn\'t mean \"sorry\" ?</item>
+        <item>Discuple</item>
+        <item>Lo siento</item>
+        <item>Perdón</item>
+        <item>Excusere</item>
+    </string-array>
+
+    <string-array name="sp_q4">
+        <item>« Ustedes … con su madre. »\nComplete the sentence.</item>
+        <item>hablan</item>
+        <item>hablamos</item>
+        <item>hablas</item>
+        <item>hablo</item>
+    </string-array>
+
+    <string-array name="sp_q5">
+        <item>« Son tres horas veinticuatro minutos. »\nWhat time is it?</item>
+        <item>13:20</item>
+        <item>3:42</item>
+        <item>3:24</item>
+        <item>13:24</item>
+    </string-array>
+
+    <!-- German Questions -->
+    <string-array name="de_q1">
+        <item>„Ich trinke … Wasser\"\nWhich one is the good pronoun ?</item>
+        <item>der</item>
+        <item>die</item>
+        <item>das</item>
+        <item>den</item>
+    </string-array>
+
+    <string-array name="de_q2">
+        <item>How to say \n\"The cat eat the mouse\"?</item>
+        <item>Die Katze esse die Maus.</item>
+        <item>Der Katze isst die Maus.</item>
+        <item>Die Katze frisst die Maus.</item>
+        <item>Die Katze fressen die Maüse.</item>
+    </string-array>
+
+    <string-array name="de_q3">
+        <item>„Heute ist Mittwoch.\"\nWhat day is it today?</item>
+        <item>Sunday</item>
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+    </string-array>
+
+    <string-array name="de_q4">
+        <item>„Einhunderteinundzwanzig kilometer.\"\nHow long is it ?</item>
+        <item>121 km</item>
+        <item>1020 km</item>
+        <item>112 km</item>
+        <item>120 km</item>
+    </string-array>
+
+    <string-array name="de_q5">
+        <item>What is the singular form of \n„Mädchen\" ?</item>
+        <item>Madche</item>
+        <item>Mädchen</item>
+        <item>Madchen</item>
+        <item>Machen</item>
+    </string-array>
+</resources>
